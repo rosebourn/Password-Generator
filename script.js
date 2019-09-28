@@ -28,9 +28,39 @@ console.log(randomChar);
 var password = randomLow.concat(randomCap, randomNum, randomChar);
 console.log(password);
 
-function allSymb(){
-    if 
-for (let i = 0; i >= 2 && i <= 32; i++) {
-    console.log(password[i]);
+if (specCharQues && numQues && upperQues) {
+   
 }
+
+else if (specCharQues && numQues){
+    
 }
+
+else if (specCharQues && numQues) {
+
+}
+
+else if (upperQues && specCharQues) {
+
+}
+
+else if (upperQues) {
+
+}
+
+else if (numQues) {
+
+}
+
+else (specCharQues) {
+
+}
+
+
+//function allSymb(){
+    //if 
+//for (let i = 0; i >= 2 && i <= 32; i++) {
+    //i = 10;
+    //console.log(password[i]);
+//}
+
