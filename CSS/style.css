@@ -17,3 +17,23 @@ h1 {
     padding-top: 20px;
 }
 
+@media screen and (max-width: 640px) {
+    input {
+        width: 385px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    input {
+        width: 385px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 993px) {
+    input {
+        width: 550px;
+    }
+}
+
+
+
