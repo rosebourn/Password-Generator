@@ -19,49 +19,49 @@ var password = '';
 
 if (upperQues) {
     lowLet = lowLet.concat(capLet);
-}
+};
 
 if (numQues) {
     lowLet = lowLet.concat(num);
-}
+};
 
 if (specCharQues) {
     lowLet = lowLet.concat(specialChar);
-}
+};
 
 if (upperQues && numQues) {
     lowLet = lowLet.concat(num, capLet);
-}
+};
 
 if (upperQues && specCharQues) {
     lowLet = lowLet.concat(capLet, specialChar);
-}
+};
 
 if (upperQues && numQues && specCharQues) {
     lowLet = lowLet.concat(capLet, specialChar, num);
-}
+};
 
 if (numQues && specCharQues) {
     lowLet = lowLet.concat(num, specialChar);
-}
+};
 
 if (null) {
     lowLet;
-}
+};
 
 for (var i = 0; i < howMany; i++) {
     password += lowLet[Math.floor(Math.random() * lowLet.length)];
-}
+};
 
 document.getElementById("display").value = password;
 
-}
+};
 
 function copyPassword() {
     document.getElementById("display").select();
     document.execCommand("Copy");
     alert("Password copied to clipboard");
-}
+};
 
 /* var howMany = prompt("How many characters would you like in the password? (Must be at least 8 characters but no longer than 128.)")
 var morePlz = (howMany < 8);
@@ -84,3 +84,10 @@ else {
 if (justRight) {
     generate();
 } */
+
+// if (howMany < 8) {
+//     alert ("Password must be at least 8 characters.")
+// } else if (howMany > 128) {
+//     alert("Password must be shorter than 128 characters.");
+//     howMany = prompt("enter again");
+// }
