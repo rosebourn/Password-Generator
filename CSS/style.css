@@ -2,6 +2,7 @@
     background:  #062ac9;
     width: 960px;
     height: 600px;
+    margin-top: 50px;
 }
 
 input {
@@ -17,6 +18,11 @@ h1 {
     padding-top: 60px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#passwordDisplay {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
 }
 
 .btn {

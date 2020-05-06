@@ -1,3 +1,5 @@
 # Password-Generator
 
-Here is a link to the project on [GitHub Pages](https://rosebourn.github.io/Password-Generator/).
+
+
+Link to project on [GitHub Pages](https://rosebourn.github.io/Password-Generator/).
