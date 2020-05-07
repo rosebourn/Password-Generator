@@ -4,10 +4,9 @@
 
 <!-- <img src="images/screenShot.png"> -->
 
-![](https://imgflip.com/gif/40de3e.gif)
+![40ii2n](https://user-images.githubusercontent.com/53204226/81325985-5ec86500-9056-11ea-9348-03199b20dcbd.gif)
 
-<!-- <a href="https://imgflip.com/gif/40dbsx"> -->
-<img src="https://imgflip.com/gif/40dbsx.gif" title="made at imgflip.com/>
-<!-- </a> -->
+![](https://imgflip.com/gif/40ii2n)
+
 
 Link to project on [GitHub Pages](https://rosebourn.github.io/Password-Generator/).
