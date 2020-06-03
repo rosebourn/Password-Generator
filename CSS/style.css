@@ -27,6 +27,7 @@ h1 {
 
 .btn {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 23px;
 }
 
 @media screen and (max-width: 640px) {
